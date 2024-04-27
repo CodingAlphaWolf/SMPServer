@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>DeeDeetje Minecraft SMP Server</title>
+		<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+ 	<div class="navbar">
+ 	<img src="images/logo.png" class="logo">
+ 	<nav>
+ 		<ul id="menuList">
+ 			<li><a href="index.html">Home</a></li>
+ 			<li><a href="">Regels</a></li>
+ 			<li><a href="">Over ons</a></li>
+ 		</ul>
+ 	</nav>
+ 	<img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+ </div>
+
+
+<div class="carousel">
+	<div id="skyline" class="carousel__item">
+			 	  <img src="images/imagemain.png"  alt="..." class="carousel__image">
+	</div>
+	<div id="great-wall-of-china" class="carousel__item">
+			 	  <img src="images/imagemain.png"  alt="..." class="carousel__image">
+	</div>
+	<div id="sunset-on-the-li-river" class="carousel__item">
+			 	  <img src="images/imagemain.png"  alt="..." class="carousel__image">
+	</div>
+</div>
+
+<div id="controls" class="controls">
+	<a href="#skyline" class="controls__dot">
+			 	  <span class="visuallyhidden">Sunset in the desert</span>
+	</a>
+	<a href="#great-wall-of-china" class="controls__dot">
+			 	  <span class="visuallyhidden">SCreenshot2</span>
+	</a>
+	<a href="#sunset-on-the-li-river" class="controls__dot">
+			 	  <span class="visuallyhidden">Screenshot3</span>
+	</a>
+</div>
+ 
+
+ 	<div class="row">
+ 		<div class= col-1>
+ 			<h2>Onze Server</h2>
+ 			<p>Deze server is gebaseerd op vanilla Minecraft versie 1.20.4</p>
+ 			<h4>Bezoek onze Discord Server</h4>
+ 			<button onclick="document.location='https://discord.gg/jhsTGUg3ju'" class="button">JOIN<img src="images/arrow.png"</button>
+ 			  
+ 		</div>
+ 		</div>
+ 		</div>
+ 	</div>
+
+ 	<div class="social-links">
+ 		<img src="images/fb.png">
+ 		<img src="images/tw.png">
+ 		<img src="images/ig.png">
+ 	</div>
+
+</div> 
+
+	<script>
+		
+		var menuList = document.getElementById("menuList");
+		menuList.style.maxHeight = "0px";
+
+
+		function togglemenu(){
+
+			if(menuList.style.maxHeight == "0px")
+			{
+
+				menuList.style.maxHeight = "130px";
+			}
+			else
+			{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+
+	</script>
+
+</body>
+</html>
