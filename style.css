@@ -53,17 +53,19 @@ nav ul li a:hover{
 
 
 .carousel {
-  display: flex;
+  display: flex; 
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
+  align-items: center;
+  border-radius: 1%;
+
 }
 
 .carousel__item {
-  flex-shrink: 0;
+  flex-shrink: 1;
   scroll-snap-align: start;
-  
 }
 
 .carousel::-webkit-scrollbar {
@@ -89,7 +91,7 @@ nav ul li a:hover{
   border-radius: 50%;
   outline: none;
   background-color: #fff;
-  opacity: 0.8;
+  opacity: 0.5;
   cursor: pointer;
   transition: opacity 0.2s;
   
@@ -246,6 +248,7 @@ button:hover{
 }
 .social-links{
 	text-align: center;
+	background-color: grey;
 }
 
 /* Eind Social Linken */
